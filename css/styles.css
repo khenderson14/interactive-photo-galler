@@ -1,0 +1,20 @@
+body {
+    margin: 5vh;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+#search-bar {
+    width: 60%;
+    min-width: 180px;
+    padding: 10px 15px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    row-gap: 20px;
+    justify-items: center;
+    max-width: 1000px;
+    margin: 5vh auto;
+}
