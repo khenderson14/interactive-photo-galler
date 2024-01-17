@@ -4,10 +4,11 @@ body {
     font-family: 'Merriweather', serif;
 }
 
-#search-bar {
-    width: 60%;
+#search {
+    width: 40%;
     min-width: 180px;
     padding: 10px 15px;
+    border: 1px solid grey;
 }
 
 .gallery {
